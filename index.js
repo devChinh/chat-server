@@ -40,7 +40,7 @@ server.listen(process.env.PORT || 8080, () => {
 
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://master--relaxed-taiyaki-e47e21.netlify.app",
     credentials: true
   }
 })
